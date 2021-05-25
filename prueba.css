@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    /*FLEX*/
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+
+.header{
+    width: 100%;
+    padding: 15px;
+    background: rgb(27, 119, 180);
+    /*FLEX*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+}
+.main1{
+    width: 25%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 13%;
+}
+.info{
+    width: 32%;
+}
+.navegador{
+    padding: 2px;
+}
+.navegador a{
+    margin-left: 10px;
+    padding: 3px 10px;
+    border-left: 1px solid #fff;
+    font-size:12px;
+    color: #fff;
+    text-decoration: none;
+}
+.info a{
+    font-size:12px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.icon-home3{
+    color:rgb(245, 158, 28);
+    text-decoration:underline rgb(27, 119, 180);
+}
+.icon-phone{
+    margin: 10px;
+    padding:10px;
+}
+.icon-mail2{
+    margin: 0px 10px;
+    padding: 3px 10px;
+    border-left: 1px solid #fff;
+}
+
+/*PARTE 1*/
+.parteuno{
+    width: 100%;
+    margin: 40px;
+    margin-left: 18%;
+    /*FLEX*/
+   display: flex;
+   flex-flow: row wrap;    
+}
+
+.logo{
+    width: 35%;
+    margin:10px;
+    padding: 10px;
+    align-content: center;
+    margin-left: 2%;
+}
+.logo h1{
+    font-size: 60px;
+    font-weight: normal;
+    color:rgb(27, 119, 180);
+}
+.logo span{
+    color:rgb(245, 158, 28);
+    font-weight: bold;
+    font-size:35px;
+}
+
+.logo2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:40%;
+    margin:5px 25px;
+}
+.phone, .days{
+    display: flex;
+}
+.days p{
+    font-size: 18px;
+    margin: 10px 15px;
+}
+.phone p{
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 0;
+}
+.numero{
+    margin: 10px ;
+    margin-left: 85px;
+    font-size: 18px;
+}
+.horario{
+    margin: 10px ;
+    margin-left: 70px;
+    font-size: 18px;
+}
+.phone span, .days span{
+    font-size: 22px;
+    padding: 20px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 50%;
+}
+
+/*PARTE 2*/
+.partedos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partedos .menu2{
+    margin-top: -30px;
+    padding: 18px;
+    width: 60%;
+    background: rgb(245, 158, 28);
+}
+.partedos .menu2 a{
+    padding: 15px;
+    font-size: 16px;
+    color:#fff;
+    text-decoration:none;
+}
+.partedos .menu2 a:first-child{
+    color:rgb(27, 119, 180);
+}
+.imagen-parte-2{
+    background-image: url(imagenes/01.png);
+    background-color: rgb(55,55,55);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;  
+    align-content: center;
+}
+
+.textos-parte2{
+    margin:145px 0px;
+}
+.texto1{
+    letter-spacing: 5px;
+    padding: 15px;
+    font-size:22px;
+    color:#fff;
+}
+.texto2{
+    padding-bottom:20px;
+    font-size:60px;
+    color:#fff;
+}
+.texto3{
+    font-size:17px;
+    color:#fff;
+}
+.texto4{
+    margin: 65px 0;
+    font-size: 15px;
+}
+.texto4 a{
+    padding: 12px 15px;
+    background: rgb(245, 158, 28);
+    color:#fff;
+    text-decoration: none;
+}
+
+/*PARTE 3*/
+.partetres{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.titulo-parte3{
+    width: 100%;
+    margin:75px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.titular3 .quis{
+    font-size: 24px;
+    color: rgb(78, 77, 77);
+    text-align: center;
+}
+.titular3 .mauris{
+    font-size: 18px;
+    color:rgb(77, 77, 77);
+    text-align: center;
+}
+
+.fondo-parte3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin:auto;
+    margin-left: 11%;
+    margin-bottom: 75px;
+}
+.fondo-parte3 h5, .fondo-parte3 p{
+    font-weight: normal;
+    margin:5px;
+    font-size: 18px;
+}
+.fondo1, .fondo2, .fondo3, .fondo4, .fondo5, .fondo6{
+    background:url(imagenes/348x261.png);
+    background-size: cover;
+    background-color: rgb(55,55,55);
+    background-blend-mode: soft-light;
+    color: white;
+    max-width: 350px;
+    height: 260px;
+    padding:10px;
+    margin:9px 38px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/*PARTE 4*/
+.partecuatro{
+    display: flex;
+    flex-flow: row wrap;
+    background: rgb(243, 243, 243);
+    width: 100%;
+}
+
+.titulo-parte4{
+    margin:60px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.titular4 .vitae{
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(78, 77, 77);
+    text-align: center;
+}
+.titular4 .vestibulum{
+    font-size: 18px;
+    color:rgb(77, 77, 77);
+    text-align: center;
+}
+
+.fondo7{
+    background-image: url(imagenes/bibemdum.png);
+    margin:auto;
+}
+.fondo8{
+    background-image: url(imagenes/neque.png);
+    margin:auto;
+}
+.fondo9{
+    background-image: url(imagenes/accumsan.png);
+    margin:auto;
+}
+.fondo7, .fondo8, .fondo9{
+    display: flex;
+    flex-flow: row wrap;
+    width: 200px;
+    height: 200px;
+}
+.textos-parte4{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+.bibemdum, .neque, .accumsan{
+    margin-bottom:30px;
+    font-size: 20px;
+    width: 380px;
+    padding: 10px;
+} 
+.textos-parte4 h5{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px;
+}   
+.textos-parte4 p {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 5px;
+}
+
+/*PARTE 5*/
+.partecinco{
+    display: flex;
+    flex-flow: row wrap;
+    background:linear-gradient(to bottom, rgb(45, 148, 206),rgb(77, 181, 245) ) ;
+    width: 100%;
+}
+
+.titulo-parte5{
+    margin:60px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.titular5 .mauris{
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.titular5 .in{
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.imagenes-parte5{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    margin:20px auto;
+    margin-bottom: 3px;
+    
+}
+.imagen1-parte5{
+    background-image: url(imagenes/100x100.png);
+    border-radius: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100px;
+    height: 100px;
+}
+.imagen2-parte5{
+    background-image: url(imagenes/100x100.png);
+    border-radius: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100px;
+    height: 100px;
+}
+
+.textos-parte5{
+    display: flex;
+    width: 62%;
+    margin: auto;
+}
+.textos-parte5 p{
+    background:#fff;
+    margin: 17px 24px;
+    padding: 19px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.relleno-parte5{
+    display: flex;
+    justify-content: space-evenly;
+    color:#fff;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.relleno1-parte5, .relleno2-parte5{
+    margin: auto;
+    margin-bottom: 80px;
+}
+.gname, .hname{
+    font-size: 22px;
+}
+.p5neque,.p5vestibulum{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/*PARTE 6*/
+.parteseis{
+    display: flex;
+    flex-flow: row wrap;
+    background: rgb(243, 243, 243);
+    width: 100%;
+}
+
+.titulo-parte6{
+    margin:60px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.titular6 .ligula{
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(78, 77, 77);
+    text-align: center;
+}
+.titular6 .et{
+    font-size: 18px;
+    color:rgb(77, 77, 77);
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.fondo-parte6{
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+}
+.fondo10, .fondo11, .fondo12{
+    background:url(imagenes/348x261.png);
+    background-size: cover;
+    color:#fff;
+    max-width: 350px;
+    height: 260px;
+    display: flex;
+}
+.abril06, .abril05, .abril04{
+    margin: 15px;
+    width: 48px;
+}
+.abril06 h5, .abril05 h5, .abril04 h5{
+    padding: 8px;
+    font-size: 22px;
+    background-color: rgb(46, 46, 59);
+    text-align: center;
+}
+.abril06 h6, .abril05 h6, .abril04 h6{
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(22, 22, 37);
+    text-align: center;
+    font-weight: normal;
+}
+.cartel1, .cartel2, .cartel3{
+    background-color: #fff;
+    width: 350px;
+    height: 520px;
+}
+.integer06, .tortor05, .phasellus04{
+    margin-top:22px;
+    margin-left: 18px;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+.vestibulum06, .vel05, .fringilla04{
+    margin:18px;
+    font-size: 18px;
+}
+.readmore{
+    padding: 12px 15px;
+    background: rgb(245, 158, 28);
+    width: 125px;
+    margin: 18px;
+}
+.readmore a{
+    color:#fff;
+    text-decoration: none;
+}
+.fondo-parte6 span{
+    color: rgb(245, 158, 28);
+}
+.etiqueta{
+    display: flex;
+    margin: 15px 18px;
+    font-size: 12px;
+}
+.etiqueta span{
+    color: rgb(65, 64, 64);
+    padding: 0px 2px;
+}
+.etiqueta p{
+    color:rgb(245, 158, 28);
+    margin: 0px 2px;
+}
+
+/*PARTE 7*/
+.partesiete{
+    display: flex;
+    flex-flow: row wrap;
+    background:linear-gradient(to bottom, rgb(45, 148, 206),rgb(77, 181, 245) ) ;
+    width: 100%;
+}
+
+.titulo-parte7{
+    margin-top:60px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.titular7 .interdum7{
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.titular7 .in7{
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.info7{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+}
+.phone7, .email7, .location7{
+    display: flex;
+    background: #fff;
+    width: 350px;
+    padding: 17px;
+}
+.info7 .icon-phone, .info7 .icon-mail2, .info7 .icon-location{
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 50%;
+    color: rgb(77, 181, 245);
+    font-size: 28px;
+    margin: auto 0px;
+    padding: 15px;
+}
+.phone7 p, .email7 p, .location7 p{
+    margin: auto 15px;
+    font-size: 17px;
+}
+.ourlocation{
+    color: rgb(245, 158, 28);
+}
+
+/*PARTE 8*/
+.parteocho{
+    display: flex;
+    flex-flow:row wrap;
+    width: 65%;
+    margin: auto;
+}
+
+.suro8, .massa8, .etiam8{
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 30%;
+}
+.logo8{
+    margin-top:70px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.logo8 h1{
+    font-size: 60px;
+    font-weight: normal;
+    color:rgb(27, 119, 180);
+}
+.logo8 span{
+    color:rgb(245, 158, 28);
+    font-weight: bold;
+    font-size:35px;
+}
+.suro8 p{
+    padding: 5px;
+    font-size: 18px;
+    margin: 12px 0px;
+}
+.span8{
+    color:rgb(245, 158, 28);
+}
+.redes8{
+    margin-top: 30px;
+    margin-bottom: 84px;
+}
+.redes8 span{
+    color:#fff;
+    background: rgb(27, 119, 180);
+    margin: 3px;
+    padding: 10px;
+}
+
+.massa8{
+    flex-direction: column;
+    margin: 36px;
+}
+.massa8 h6{
+    font-size: 17px;
+    margin: 40px 0;
+    font-weight: normal;
+}
+.massa8 p{
+    color: rgb(245, 158, 28);
+    font-size: 17px;
+    padding: 16px 0;
+}
+.leo8, .aenean8, .pretium8{
+    border-top: 1px solid #ccc;
+}
+
+.etiam8{
+    display: flex;
+    margin-top: 36px;
+}
+.etiam8 h6{
+    font-size: 17px;
+    margin: 40px 0;
+    font-weight: normal;
+}
+.etiam8 p{
+    font-size: 17px;
+    margin: 10px 0px 8px;
+}
+.etiam8 form input{
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 15px;
+    background: rgb(35, 149, 224);
+    width: 350px;
+    height: 35px;
+}
+.submit8{
+    padding: 10px 15px;
+    background: rgb(245, 158, 28);
+    width: 105px;
+    margin: 10px 0;
+    text-align: center;
+}
+.submit8 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+footer{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    /*FLEX*/
+    display: flex;
+}
+.footer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.footer p{
+    margin: auto;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: normal;
+}
